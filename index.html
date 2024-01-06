@@ -7,51 +7,51 @@
   </head>
   <body class="page">
     <header class="header">
-      <img class="image" src="./eisenhower-matrix.jpg" alt="importance-matrix-image">
-      <a class="more-info-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <img class="header__image" src="./eisenhower-matrix.jpg" alt="importance-matrix-image">
+      <a class="header__more-info-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="main">
-      <section id="add-task-area">
-        <h1 class="title-hidden">Welcome</h1>
-        <label for="new-task" class="label">Add Item</label>
-        <div class="task-wrap">
-          <input id="new-task"class="task" type="text">
-          <button class="btn">Add</button>
+      <section id="add-task-area" class="main__section">
+        <h1 class="main__title-hidden">Welcome</h1>
+        <label for="new-task" class="main__label">Add Item</label>
+        <div class="main__task-wrap">
+          <input id="new-task"class="main__task" type="text">
+          <button class="main__btn">Add</button>
         </div>
       </section>
-      <section>
-        <h2 class="title">Todo</h2>
-        <ul id="incomplete-tasks" class="list-wrap">
+      <section class="main__section">
+        <h2 class="main__title">Todo</h2>
+        <ul id="incomplete-tasks" class="main__list-wrap">
           <li class="list-inner">
-            <input class="task-done" type="checkbox">
-            <label class="task label">Pay Bills</label>
-            <input type="text" class="task">
-            <button class="button-edit btn">Edit</button>
-            <button class="button-delete btn">
-              <img class="btn-img" src="./remove.svg" alt="">
+            <input class="list-inner__task-done" type="checkbox">
+            <label class="main__task main__label">Pay Bills</label>
+            <input type="text" class="main__task">
+            <button class="list-inner__button-edit main__btn">Edit</button>
+            <button class="list-inner__button-delete main__btn">
+              <img class="list-inner__button-delete_img" src="./remove.svg" alt="">
             </button>
           </li>
-          <li class="edit-mode list-inner">
-            <input class="task-done" type="checkbox">
-            <label class="task label">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="task">
-            <button class="button-edit btn">Save</button>
-            <button class="button-delete btn">
-              <img class="btn-img" src="./remove.svg" alt="">
+          <li class="main__list-wrap_edit-mode list-inner">
+            <input class="list-inner__task-done" type="checkbox">
+            <label class="main__task main__label">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="main__task">
+            <button class="list-inner__button-edit main__btn">Save</button>
+            <button class="list-inner__button-delete main__btn">
+              <img class="list-inner__button-delete_img" src="./remove.svg" alt="">
             </button>
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="title">Completed</h2>
-        <ul id="completed-tasks" class="list-wrap">
+      <section class="main__section">
+        <h2 class="main__title">Completed</h2>
+        <ul id="completed-tasks" class="main__list-wrap">
           <li class="list-inner">
-            <input class="task-done" type="checkbox" checked>
-            <label class="task label">See the Doctor</label>
-            <input type="text" class="task">
-            <button class="button-edit btn">Edit</button>
-            <button class="button-delete btn">
-              <img class="btn-img" src="./remove.svg" alt="">
+            <input class="list-inner__task-done" type="checkbox" checked>
+            <label class="main__task main__label">See the Doctor</label>
+            <input type="text" class="main__task">
+            <button class="list-inner__button-edit main__btn">Edit</button>
+            <button class="list-inner__button-delete main__btn">
+              <img class="list-inner__button-delete_img" src="./remove.svg" alt="">
             </button>
           </li>
         </ul>
